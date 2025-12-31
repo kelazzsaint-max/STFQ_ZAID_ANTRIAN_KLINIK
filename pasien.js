@@ -2,11 +2,6 @@ function normalNama(nama) {
   return nama.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
-// initialize on DOM ready
-$(document).ready(function () {
-  // Custom dropdown code removed
-});
-
 $(document).ready(function () {
   $("#ambil").on("click", function () {
     let nama = $("#nama").val().trim();
@@ -85,7 +80,7 @@ $(document).ready(function () {
       let lanjut = confirm("Dashboard khusus dokter. Login sekarang?");
 
       if (lanjut) {
-        window.location.href = "/Dokter/login.html";
+        window.location.href = "login.html";
       }
     }
   });

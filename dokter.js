@@ -1,11 +1,11 @@
 if (localStorage.getItem("dokterLogin") !== "true") {
   alert("Akses hanya untuk dokter");
-  window.location.replace("/Dokter/login.html");
+  window.location.replace("login.html");
 }
 
 function logout() {
   localStorage.removeItem("dokterLogin");
-  window.location.href = "/HOME/index.html";
+  window.location.href = "index.html";
 }
 
 function render() {

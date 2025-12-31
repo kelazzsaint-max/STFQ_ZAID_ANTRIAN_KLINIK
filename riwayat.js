@@ -8,7 +8,7 @@ $(document).ready(function () {
       let lanjut = confirm("Dashboard khusus dokter. Login sekarang?");
 
       if (lanjut) {
-        window.location.href = "/Dokter/login.html";
+        window.location.href = "login.html";
       }
     }
   });
